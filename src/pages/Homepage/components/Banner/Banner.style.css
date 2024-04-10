@@ -20,6 +20,16 @@
   height: 100%;
   padding: 20px;
 }
+@media (max-width: 576px) {
+  .banner-text-area {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .banner-text-area {
+    width: 100%;
+  }
+}
 .banner-text-area > * {
   z-index: 2;
 }
